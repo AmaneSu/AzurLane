@@ -26,7 +26,7 @@ chmod +x apkeep
 # Download Azur Lane
 if [ ! -f "com.YoStarJP.AzurLane.apk" ]; then
     echo "Get Azur Lane apk"
-    wget hhttp://60.205.170.201:1180/com.bilibili.AzurLane.apk -O com.YoStar.AzurLane.apk -q
+    wget https://60.205.170.201:11443/com.bilibili.AzurLane.apk -O com.YoStar.AzurLane.apk -q
     echo "apk downloaded !"
 fi
 
